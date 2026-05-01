@@ -3,7 +3,7 @@
 This repository contains the test automation project for the Chat Translator system (Singlish to Sinhala).
 
 ## Project Structure
-- `test_automation.py`: The main Python script using Playwright for browser automation.
+- `IT23653986_test_automation.py`: The main Python script using Playwright for browser automation.
 - `IT23653986 - Assignment 1 - Test cases.xlsx`: Excel file containing the fifty negative test cases and results.
 
 ## Setup Instructions
@@ -22,7 +22,7 @@ playwright install
 ### 3. Run the Tests
 To execute the automation script with the existing test cases:
 ```bash
-python test_automation.py --excel "IT23653986 - Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 10000 --retry-wait-ms 1500 --retries 10 --type-delay-ms 80 --slow-mo-ms 300 --save-every 1 --keep-open
+python IT23653986_test_automation.py --excel "IT23653986 - Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 10000 --retry-wait-ms 1500 --retries 10 --type-delay-ms 80 --slow-mo-ms 300 --save-every 1 --keep-open
 ```
 
 ## Configuration Parameters
